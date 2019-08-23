@@ -1,0 +1,51 @@
+:root {
+    --clr-highlight: rgba(165, 34, 38, 1);
+    --clr-normal-text: rgba(83, 83, 83, 1);
+    --clr-light-text: rgba(255, 255, 255, 1);
+    --clr-dark-text: rgba(26, 26, 26, 1);
+    --base-font-size: 16px;
+}
+
+body {
+    color: var(--clr-light-text);
+    font-size: calc(var(--base-font-size) * 1rem); 
+}
+
+ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+hr {
+    color: var(--clr-dark-txt);
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 1.5rem;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid;
+}
+
+.btn-primary {
+    color: var(--clr-dark-text);
+    border-color: var(--clr-dark-text);
+}
+
+.btn-cta {
+    font-weight: 700;
+    background-color: var(--clr-highlight);
+    color: var(--clr-light-text);
+    border-color: var(--clr-highlight);
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+nav a:hover {
+    text-decoration: none;
+}
