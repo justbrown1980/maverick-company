@@ -232,9 +232,25 @@ nav a:hover {
 }
 
 .sign-up-area form {
+    max-width: 60vw;
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid gray;
 }
 
-.sign-up-area button[type="submit"] {
+.sign-up-area input {
+    flex : 1;
+    border: none;
+}
+
+.sign-up-area input:focus {
+    outline: none;
+}
+
+.sign-up-area button {
     padding: 0 0.5rem;
+    border:1px solid blue;
+    background:blue;
+    color:white
 }
