@@ -214,3 +214,27 @@ nav a:hover {
     }
 }
 
+.sign-up-area {
+    padding: 2rem 0;
+}
+
+.sign-up-area h5 {
+    text-align: center;
+    color: var(--clr-highlight);
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.sign-up-area h3 {
+    text-align: center;
+}
+
+.sign-up-area form {
+    text-align: center;
+}
+
+.sign-up-area button[type="submit"] {
+    padding: 0 0.5rem;
+}
