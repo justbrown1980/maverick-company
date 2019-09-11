@@ -1,16 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Belleza|Open+Sans:400,700&display=swap');
+
 :root {
     --clr-highlight: rgba(165, 34, 38, 1);
     --clr-normal-text: rgba(83, 83, 83, 1);
     --clr-light-text: rgba(255, 255, 255, 1);
-    --clr-dark-text: rgba(26, 26, 26, 1);
+    --clr-dark-text: rgba(26, 26, 26, 1); 
     --base-font-size: 16px;
     --wrapper: 80vw;
+    --heading-font: 'Belleza', sans-serif;
+    --body-font: 'Open Sans', sans-serif;
 }
 
 body {
     color: var(--clr-dark-text);
     font-size: calc(var(--base-font-size) * 1rem); 
-    font-family: 'Arimo', Arial, Helvetica, sans-serif;
+    font-family: var(--body-font);
     font-weight: 400;
 }
 
@@ -21,6 +25,10 @@ ul {
 
 hr {
     color: var(--clr-dark-txt);
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: var(--heading-font);
 }
 
 h3 {
@@ -49,6 +57,11 @@ h3 {
     border-color: var(--clr-highlight);
 }
 
+a {
+    color: var(--clr-normal-text);
+    font-weight: 700;
+}
+
 
 /* Header */
 
@@ -68,7 +81,7 @@ h3 {
     }
     
     .main-header .btn-primary {
-        grid-column: 7 / -1;
+        grid-column: 6 / -1;
     }
 }
 
